@@ -1,0 +1,33 @@
+header {
+    font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 50px;
+}
+
+footer {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #EEE;
+}
+
+#footer {
+    padding: 20px 0;
+}
+
+#copyright {
+    text-align: center;
+    justify-content: center;
+    background-color: #212429;
+    color: #EEE;
+    padding: 20px;
+}
+
+#mainNav {
+    background-color: #212429;
+}
+
+.usefullLinks {
+    list-style-type: none;
+}
+
+.usefullLinks i {
+    color: #0d6efd;
+}
