@@ -1,0 +1,50 @@
+.front {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10em;
+    padding-bottom:10em;
+    background-image: no-repeat;
+    color: #EEE;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../Assets/home.jpg);
+    background-position: bottom;
+}
+
+#about {
+    margin:20px;
+    
+}
+
+#phpBar {
+    width: 60%
+}
+
+#jsBar {
+    width: 70%
+}
+
+#cssBar {
+    width: 80%
+}
+
+#htmlBar {
+    width: 90%
+}
+
+#reactBar {
+    width: 50%;
+    background-color: #0D6EFD;
+}
+
+.aboutSeparator {
+    border: 5px solid #0D6EFD;
+    border-radius: 5px;
+}
+
+.johnDoePic {
+    border-radius: 2%;
+  max-width: 100%;
+  height: auto;
+
+}
+
