@@ -1,27 +1,40 @@
 import React from "react";
 import './home.css';
+import { useRef } from 'react';
 
 class Home extends React.Component {
+    constructor(props) {
+        super(props);
+        this.aboutRef = React.createRef(); // Création de la ref
+      }
+      handleClick = () => {
+        const aboutRefTop = this.aboutRef.current.offsetTop; // Position du haut de l'élément cible
+        const navbarHeight = 75; 
+        window.scrollTo({
+            top: aboutRefTop - navbarHeight,
+            behavior: 'smooth'
+        });
+      };
     render() {
         return (
             <>
                 <div class="front">
                     <h1>Bonjour, je suis John Doe</h1>
                     <h2>Developpeur web Full-Stack</h2>
-                    <button type="button" class="btn btn-primary">En savoir plus</button>
+                    <button type="button" class="btn btn-primary" onClick={this.handleClick}>En savoir plus</button>
                 </div>
 
                 <div class='container' >
-                    <div id="about"  class="card text-bg-light mb-3">
+                    <div id="about" ref={this.aboutRef} class="card text-bg-light mb-3">
                         <div class='container'>
                             <div class="row">
                                 <div class="card-body col-lg-6">
                                     <h3 class="card-title">A propos</h3>
                                     <hr class="aboutSeparator"></hr>
                                     <p class="card-text">Passioné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>.
-                                    <br /><br />
-                                    Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>.<br /><br />
-                                    J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.</p>
+                                        <br /><br />
+                                        Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>.<br /><br />
+                                        J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.</p>
                                 </div>
                                 <div class="card-body col-lg-6">
 
