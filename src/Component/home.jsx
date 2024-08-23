@@ -1,6 +1,6 @@
 import React from "react";
 import './home.css';
-import { useRef } from 'react';
+
 
 class Home extends React.Component {
     constructor(props) {
@@ -28,7 +28,7 @@ class Home extends React.Component {
                     <div id="about" ref={this.aboutRef} class="card text-bg-light mb-3">
                         <div class='container'>
                             <div class="row">
-                                <div class="card-body col-lg-6">
+                                <div class="card-body col-lg-6 ">
                                     <h3 class="card-title">A propos</h3>
                                     <hr class="aboutSeparator"></hr>
                                     <p class="card-text">Passioné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>.
