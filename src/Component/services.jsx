@@ -1,4 +1,3 @@
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:2669349936.
 import React, { Component } from 'react';
 import './stylesheets/services.css';
 
