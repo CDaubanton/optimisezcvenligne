@@ -1,0 +1,33 @@
+.srvImg {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.title {
+    text-align: center;
+    align-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.title hr {
+    border: 3px solid #0D6EFD;
+    border-radius: 5px;
+    opacity: 1;
+    width: 50%;
+    margin: auto;
+}
+
+.srvIcon {
+    padding-bottom: 0.5em;
+    color: blue;
+    font-size: 2.5em;
+}
+
+.imgPortfolio {
+    width:100%;
+    height:276px;
+    object-fit: cover;
+}
+  

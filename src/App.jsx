@@ -4,13 +4,14 @@ import Navbar from './Component/navbar';
 import Footer from './Component/footer';
 import Home from './Component/home'
 import Services from './Component/services';
+import Portfolio from './Component/portfolio';
 
 class App extends Component {
     render() {
         return (
             <>
                 <Navbar />
-                <Services />
+                <Portfolio />
                 <Footer />
             </>
         );
