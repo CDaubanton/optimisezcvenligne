@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './stylesheets/blog.css'
 
 class Blog extends Component {
     render() {
@@ -16,7 +17,7 @@ class Blog extends Component {
                     <div class="row">
                         <div class="mb-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="card">
-                                <img src="src/Assets/html.jpg" class="card-img-top imgPortfolio" alt="Des legumes disposé sur un fond noir" />
+                                <img src="src/Assets/html.jpg" class="card-img-top imgBlog" alt="Des legumes disposé sur un fond noir" />
                                 <div class="card-body">
                                     <h5 class="card-title">Coder son site avec HTML/CSS</h5>
                                     <p class="card-text"></p>
@@ -30,7 +31,7 @@ class Blog extends Component {
                         </div>
                         <div class="mb-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="card" >
-                                <img src="src/Assets/ecommerce.jpg" class="card-img-top imgPortfolio" alt="Des sushis dans des assietes disposé sur un fond noir" />
+                                <img src="src/Assets/ecommerce.jpg" class="card-img-top imgBlog" alt="Des sushis dans des assietes disposé sur un fond noir" />
                                 <div class="card-body">
                                     <h5 class="card-title">Vendre ses produits sur le Web</h5>
                                     <p class="card-text"></p>
@@ -44,7 +45,7 @@ class Blog extends Component {
                         </div>
                         <div class="mb-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="card" >
-                                <img src="src/Assets/google.jpg" class="card-img-top imgPortfolio" alt="Des legumes disposé sur un fond noir" />
+                                <img src="src/Assets/google.jpg" class="card-img-top imgBlog" alt="Des legumes disposé sur un fond noir" />
                                 <div class="card-body">
                                     <h5 class="card-title">Se positionner sur Google</h5>
                                     <p class="card-text"></p>
@@ -59,7 +60,7 @@ class Blog extends Component {
 
                         <div class="mb-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="card">
-                                <img src="src/Assets/responsive.jpg" class="card-img-top imgPortfolio" alt="Des legumes disposé sur un fond noir" />
+                                <img src="src/Assets/responsive.jpg" class="card-img-top imgBlog" alt="Des legumes disposé sur un fond noir" />
                                 <div class="card-body">
                                     <h5 class="card-title">Coder en responsive design</h5>
                                     <p class="card-text"></p>
@@ -73,7 +74,7 @@ class Blog extends Component {
                         </div>
                         <div class="mb-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="card" >
-                                <img src="src/Assets/seo.jpg" class="card-img-top imgPortfolio" alt="Des sushis dans des assietes disposé sur un fond noir" />
+                                <img src="src/Assets/seo.jpg" class="card-img-top imgBlog" alt="Des sushis dans des assietes disposé sur un fond noir" />
                                 <div class="card-body">
                                     <h5 class="card-title">Techniques de référencement</h5>
                                     <p class="card-text"></p>
@@ -87,7 +88,7 @@ class Blog extends Component {
                         </div>
                         <div class="mb-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="card" >
-                                <img src="src/Assets/coder.png" class="card-img-top imgPortfolio" alt="Des legumes disposé sur un fond noir" />
+                                <img src="src/Assets/coder.png" class="card-img-top imgBlog" alt="Des legumes disposé sur un fond noir" />
                                 <div class="card-body">
                                     <h5 class="card-title">Apprendre à coder</h5>
                                     <p class="card-text"></p>
