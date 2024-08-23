@@ -5,13 +5,15 @@ import Footer from './Component/footer';
 import Home from './Component/home'
 import Services from './Component/services';
 import Portfolio from './Component/portfolio';
+import Blog from './Component/blog';
+
 
 class App extends Component {
     render() {
         return (
             <>
                 <Navbar />
-                <Portfolio />
+                <Blog />
                 <Footer />
             </>
         );
