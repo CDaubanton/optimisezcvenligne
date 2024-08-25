@@ -8,6 +8,7 @@ import Services from './Component/services';
 import Portfolio from './Component/portfolio';
 import Blog from './Component/blog';
 import Contact from './Component/contact';
+import Legal from './Component/legal';
 
 
 class App extends Component {
@@ -16,7 +17,7 @@ class App extends Component {
             <>
                 <Navbar />
 
-                <Contact/>
+                <Legal/>
 
                 {/* <Routes>
                     <Route path="/" element={<Home />} />
