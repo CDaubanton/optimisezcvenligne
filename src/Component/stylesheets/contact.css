@@ -8,5 +8,11 @@
 .contact-form {
     background-color: #EEE;
     border-radius: 10px;
+}
 
+.google-map {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    padding-bottom: 7em;
 }
