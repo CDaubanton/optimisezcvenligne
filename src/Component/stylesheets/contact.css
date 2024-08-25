@@ -1,0 +1,18 @@
+.background-contact {
+    background: linear-gradient(rgba(0,
+                105, 255, 0.5), rgba(0, 105, 255, 0.5)), url(../../Assets/contact-bg.jpg);
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.contact-form {
+    background-color: #EEE;
+    border-radius: 10px;
+}
+
+.google-map {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    padding-bottom: 7em;
+}

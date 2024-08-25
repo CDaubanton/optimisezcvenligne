@@ -7,6 +7,7 @@ import Home from './Component/home'
 import Services from './Component/services';
 import Portfolio from './Component/portfolio';
 import Blog from './Component/blog';
+import Contact from './Component/contact';
 
 
 class App extends Component {
@@ -15,12 +16,14 @@ class App extends Component {
             <>
                 <Navbar />
 
-                <Routes>
+                <Contact/>
+
+                {/* <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/blog" element={<Blog />} />
-                </Routes>
+                </Routes> */}
                 
                 <Footer />
             </>

@@ -7,7 +7,7 @@ class Blog extends Component {
             <>
                 <img class="srvImg" src="src/Assets/services.jpg" alt="Points relié par des lignes" />
 
-                <div class="container">
+                <div class="container"> 
                     <div class="title">
                         <h1 class="text-uppercase">Blog</h1>
                         <h3>Retrouvez ici quelques articles sur le developpement web.</h3>
