@@ -39,7 +39,7 @@ class Legal extends Component {
                                     <a>91 rue du Faubourg Saint Honoré</a><br />
                                     75008 Paris<br /><br />
 
-                                    <i class="fa-solid fa-globe"></i><a href='www.alwaysdata.com'> www.alwaysdata.com</a>
+                                    <i class="fa-solid fa-globe"></i><a href='https://www.alwaysdata.com'> www.alwaysdata.com</a>
                                 </div>
                             </div>
                         </div>
