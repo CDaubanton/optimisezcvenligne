@@ -2,8 +2,7 @@
 
 This is a Resume made with ReactJS for an homework, it uses Bootstrap and Font Awesome libraries
 
-## You can acces the site right now on : https://j8fs8q-5173.csb.app/
-While on this site, make sure that you trust the link
+## You can acces the site right now on : https://optimisezcvenligne.vercel.app/
 
 ## Project Setup
 
