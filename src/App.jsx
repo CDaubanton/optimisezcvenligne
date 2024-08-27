@@ -9,12 +9,15 @@ import Portfolio from './Component/portfolio';
 import Blog from './Component/blog';
 import Contact from './Component/contact';
 import Legal from './Component/legal';
+import GithubUser from './Component/githubUser';
 
 
 class App extends Component {
     render() {
         return (
             <>
+
+                
                 <Navbar />
 
 
@@ -26,6 +29,7 @@ class App extends Component {
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/legal" element={<Legal />} />
+                    <Route path="/github" element={<GithubUser />} />
                 </Routes>
 
                 <Footer />
