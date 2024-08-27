@@ -17,15 +17,17 @@ class App extends Component {
             <>
                 <Navbar />
 
-                <Legal/>
 
-                {/* <Routes>
+
+                <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/blog" element={<Blog />} />
-                </Routes> */}
-                
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/legal" element={<Legal />} />
+                </Routes>
+
                 <Footer />
             </>
         );

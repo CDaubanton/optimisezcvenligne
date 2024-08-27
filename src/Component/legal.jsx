@@ -6,6 +6,10 @@ class Legal extends Component {
     render() {
         return (
             <>
+                <head>
+                    <meta name="googlebot" content="noindex" />
+                </head>
+
                 <div class="container">
                     <div class="title">
                         <h1 class="text-uppercase">Mentions Légales</h1>
