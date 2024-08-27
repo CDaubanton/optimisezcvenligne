@@ -19,7 +19,7 @@ class Navbar extends React.Component {
                         <li class="nav-item mx-0 mx-lg-1 text-light"><Link class="nav-link py-3 px-0 px-lg-3 rounded text-light" to="/services	">Services</Link></li>
                         <li class="nav-item mx-0 mx-lg-1 text-light"><Link class="nav-link py-3 px-0 px-lg-3 rounded text-light" to="/portfolio">Réalisations</Link></li>
                         <li class="nav-item mx-0 mx-lg-1 text-light"><Link class="nav-link py-3 px-0 px-lg-3 rounded text-light" to="/blog">Blog</Link></li>
-                        <li class="nav-item mx-0 mx-lg-1 text-light"><Link class="nav-link py-3 px-0 px-lg-3 rounded text-light" to="#contact">Me contacter</Link></li>
+                        <li class="nav-item mx-0 mx-lg-1 text-light"><Link class="nav-link py-3 px-0 px-lg-3 rounded text-light" to="/contact">Me contacter</Link></li>
                     </ul>
                 </div>
             </div>
