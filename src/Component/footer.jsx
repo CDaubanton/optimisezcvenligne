@@ -50,6 +50,7 @@ class Footer extends React.Component {
                                     <Link to="/services"><i class="fa-solid fa-angle-right"></i> Services</Link><br />
                                     <Link to="/contact"><i class="fa-solid fa-angle-right"></i> Me contacter</Link><br />
                                     <Link to="/legal"><i class="fa-solid fa-angle-right"></i> Mentions légales</Link><br />
+                                    <Link to="/github"><i class="fa-solid fa-angle-right"></i> Github App</Link><br />
                                 </div>
                             </section>
                             <section class="col-lg-3 col-md-6">
