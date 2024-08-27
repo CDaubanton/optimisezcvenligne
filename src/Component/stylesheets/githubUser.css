@@ -1,0 +1,13 @@
+.github-user-image {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.github-user-info {
+  text-align: center;
+}
+.github-user-info a {
+  text-decoration: none;
+}
