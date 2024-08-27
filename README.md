@@ -27,3 +27,4 @@ npm run build
 
 Click on Github App in the footer, section "Liens utiles"
 
+For W3C Validator screenshots, there is no way to Validate JSX files.
