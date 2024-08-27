@@ -25,5 +25,5 @@ npm run build
 ```
 # To use the React app used to fetch infos from a github user page
 
-In the URL on the home page, add /github
+Click on Github App in the footer, section "Liens utiles"
 
